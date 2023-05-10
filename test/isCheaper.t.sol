@@ -18,21 +18,21 @@ contract isCheaperTest is Test {
     }
 
 
-    // function test_firstDiv() public {
-        
-    //     // Call the `firstDiv()` function with some input parameters
-    //     uint result = gc.firstDiv(64, 2);
-    //     // Check if the result is equal to the expected output
-    //     assertEq(result, 32, "Division operation failed");
-    //     }
-
-     function test_secondDiv() public {
+    function test_firstDiv() public {
         
         // Call the `firstDiv()` function with some input parameters
-        uint result = gc.secondDiv(64, 2);
+        uint result = gc.firstDiv(64, 2);
         // Check if the result is equal to the expected output
         assertEq(result, 32, "Division operation failed");
         }
+
+    //  function test_AssemblyDiv() public {
+        
+    //     // Call the `firstDiv()` function with some input parameters
+    //     uint result = gc.AssemblyDiv(64, 2);
+    //     // Check if the result is equal to the expected output
+    //     assertEq(result, 32, "Division operation failed");
+    //     }
 
 }
 
