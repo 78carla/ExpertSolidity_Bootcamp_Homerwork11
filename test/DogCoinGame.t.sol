@@ -4,17 +4,17 @@ pragma solidity ^0.8.0;
 import "../lib/forge-std/src/Test.sol";
 import "../src/DogCoinGame.sol";
 
-contract isCheaperTest is Test {
+contract DogCoinGameTest is Test {
 
     DogCoinGame public gc;
     address owner = address(0x1234);
 
         function setUp() public {
             
-        vm.startPrank(owner);
-        gc = new DogCoinGamer();
-        //gas = new isCheaper();
-        vm.stopPrank();
+        // vm.startPrank(owner);
+        // gc = new DogCoinGame();
+        // //gas = new isCheaper();
+        // vm.stopPrank();
     }
 
 
